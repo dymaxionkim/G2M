@@ -11,7 +11,4 @@ python ./g2m.py
 # Linux
 google-chrome --headless --incognito --disable-gpu --window-size=1600,900 --screenshot=gantt.png ./gantt.html
 
-# MS Windows
-#start chrome --headless --incognito --disable-gpu --window-size=1600,900 --screenshot=gantt.png gantt.html
-
 exit 0
