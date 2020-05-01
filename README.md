@@ -9,7 +9,7 @@ _GanttProject로 작성한 간트챠트 데이타를 html 파일로 변환해 �
 * [GanttProject 프로그램](https://www.ganttproject.biz/)으로 간트챠트를 작성합니다.
 * 작성한 간트챠트 데이타를 `*.csv` 파일로 출력합니다. ([gantt.csv 예제](https://github.com/dymaxionkim/G2M/blob/master/gantt.csv))
 * `g2m.exe` 파일을 적당한 장소에 다운로드 받아 둡니다.
-* [g2m.exe 다운로드 링크](http://dymaxionkim.iptime.org:3100/dymaxionkim/G2M/src/branch/master/dist/g2m.exe) : 파일명 때문에 다운로드 받을때 브라우저에서 경고를 줄 수도 있지만 무시하고 다운로드 받으시면 됩니다.
+* [g2m.exe 다운로드 링크](https://github.com/dymaxionkim/G2M/releases/download/V01/g2m.exe) : 파일명 때문에 다운로드 받을때 브라우저에서 경고를 줄 수도 있지만 무시하고 다운로드 받으시면 됩니다.
 * `g2m.exe` 파일을 더블클릭해서 실행합니다.  최초 실행할 때는 윈도우OS의 디펜더가 작동해서 출처를 모르니깐 위험할 수 있다는 둥의 경고를 보여주는데 역시 무시하시면 됩니다.
 * 그러면 파일선택창이 뜨는데, 조금 전에 만든 `*.csv` 파일을 찾아서 선택해 줍니다.
 * 그러면 `*.html` 파일이 생성됩니다.
