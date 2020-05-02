@@ -3,7 +3,7 @@
 
 _GanttProject로 작성한 간트챠트 데이타를 html 파일로 변환해 주는 유틸리티_
 
-![](gantt.png)
+![](gantt_mermaid.png)
 
 
 ## 아이디어
@@ -32,20 +32,16 @@ _GanttProject로 작성한 간트챠트 데이타를 html 파일로 변환해 �
 
 ## 사용방법 (MS윈도우)
 
-* [GanttProject 프로그램](https://www.ganttproject.biz/)으로 간트챠트를 작성합니다.
-* 작성한 간트챠트 데이타를 `gantt.csv` 파일로 출력합니다. ([gantt.csv 예제](https://github.com/dymaxionkim/G2M/blob/master/gantt.csv))
-* `g2m.exe`, `g2m.bat` 파일을 `gantt.csv`파일이 있는 장소에 넣습니다. ( [g2m.exe](https://github.com/dymaxionkim/G2M/raw/master/g2m.exe), [g2m.bat](https://github.com/dymaxionkim/G2M/raw/master/g2m.bat) )
-* `g2m.bat` 파일을 더블클릭해서 실행합니다.  (최초 실행할 때는 윈도우OS의 디펜더가 작동해서 출처를 모르니깐 위험할 수 있다는 둥의 경고를 보여주는데 역시 무시하시면 됩니다.)
-* 그러면 `gantt.html`, `gantt.png` 파일이 생성됩니다.
+* [GanttProject 프로그램](https://www.ganttproject.biz/)으로 데이타(`gantt.gan`)를 편집후 저장합니다.
+* `g2m.bat` 파일을 더블클릭해서 실행합니다.
+* 그러면 `gantt.csv`, `gantt.html`, `gantt.png` 파일이 생성됩니다.
 
 
 ## 사용방법 (리눅스)
 
-* [GanttProject 프로그램](https://www.ganttproject.biz/)으로 간트챠트를 작성합니다.
-* 작성한 간트챠트 데이타를 `gantt.csv` 파일로 출력합니다. ([gantt.csv 예제](https://github.com/dymaxionkim/G2M/blob/master/gantt.csv))
-* `g2m.py`, `g2m.sh` 파일을 `gantt.csv`파일이 있는 장소에 넣습니다. ( [g2m.py](https://github.com/dymaxionkim/G2M/raw/master/g2m.py), [g2m.sh](https://github.com/dymaxionkim/G2M/raw/master/g2m.sh) )
-* `g2m.sh` 파일을 실행합니다.
-* 그러면 `gantt.html`, `gantt.png` 파일이 생성됩니다.
+* [GanttProject 프로그램](https://www.ganttproject.biz/)으로 데이타(`gantt.gan`)를 편집후 저장합니다.
+* `g2m.sh` 파일을 더블클릭해서 실행합니다.
+* 그러면 `gantt.csv`, `gantt.html`, `gantt_mermaid.png`, `gantt.png` 파일이 생성됩니다.
 
 
 

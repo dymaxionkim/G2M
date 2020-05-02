@@ -43,6 +43,7 @@ for index in range(0,y):
 Content = []
 Content.append("<html>")
 Content.append("<script src='https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.0/mermaid.min.js'></script>")
+#Content.append("<script src='mermaid.min.js'></script>")
 Content.append("<script>mermaid.initialize({startOnLoad:true});</script>")
 Content.append("<div class='mermaid'>")
 Content.append("gantt")
@@ -57,7 +58,7 @@ for index in range(1,x):
     elif (Data[index][NAME])[0:2]=='  ':
         ContentTemp = '  ' + Data[index][NAME] + ' : '
         if Data[index][START] == Data[index][FINISH]:
-            ContentTemp = ContentTemp + 'crit,'
+            ContentTemp = ContentTemp + 'milestone,' + Data[index][START] + ','
         if Data[index][STATUS] == '100':
             ContentTemp = ContentTemp + 'done,'
         elif not Data[index][STATUS] == '0':
