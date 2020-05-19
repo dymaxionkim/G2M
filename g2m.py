@@ -9,10 +9,10 @@ import os
 import csv
 
 # Input file name (csv file)
-InputFileName = "./gantt.csv"
+InputFileName = "gantt.csv"
 
 # Output file name (html file)
-OutputFileName = "./gantt.html"
+OutputFileName = "gantt.html"
 
 # Read data from the csv file.
 file1 = open(InputFileName, 'r', encoding='utf-8')
