@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-12-02" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="ko_KR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-03-29" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="ko_KR">
     <description/>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="이름" width="167" order="0"/>
-        <field id="tpd4" name="시작일" width="65" order="1"/>
-        <field id="tpd5" name="종료일" width="64" order="2"/>
+        <field id="tpd3" name="이름" width="158" order="0"/>
+        <field id="tpd4" name="시작일" width="62" order="1"/>
+        <field id="tpd5" name="종료일" width="61" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="이름" width="210" order="0"/>
@@ -33,89 +33,73 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="프로젝트 관리" color="#8cb6ce" meeting="false" start="2018-12-04" duration="11" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
-            <task id="1" name="스케쥴 수립" color="#8cb6ce" meeting="false" start="2018-12-04" duration="2" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
-                <depend id="2" type="2" difference="0" hardness="Strong"/>
-                <depend id="3" type="2" difference="0" hardness="Strong"/>
-                <depend id="6" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="2" name="(산출물) 개발계획서" color="#ff7000" meeting="true" start="2018-12-06" duration="0" complete="100" expand="true" cost-manual-value="0" cost-calculated="false"/>
-            <task id="3" name="사양 설정" color="#8cb6ce" meeting="false" start="2018-12-06" duration="9" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
-                <depend id="4" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="4" name="(산출물) 사양서" color="#ff7000" meeting="true" start="2018-12-19" duration="0" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
-                <depend id="10" type="2" difference="0" hardness="Strong"/>
-                <depend id="15" type="2" difference="0" hardness="Strong"/>
-                <depend id="20" type="2" difference="0" hardness="Strong"/>
-            </task>
-        </task>
-        <task id="5" name="제품디자인" color="#000000" meeting="false" start="2018-12-06" duration="10" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
-            <task id="6" name="1차 디자인 시안" color="#8cb6ce" meeting="false" start="2018-12-06" duration="3" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+        <task id="5" name="제품디자인" color="#000000" meeting="false" start="2020-04-03" duration="10" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="6" name="1차 디자인 시안" color="#8cb6ce" meeting="false" start="2020-04-03" duration="3" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="7" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="7" name="2차 디자인 시안" color="#8cb6ce" meeting="false" start="2018-12-11" duration="7" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="7" name="2차 디자인 시안" color="#8cb6ce" meeting="false" start="2020-04-08" duration="7" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="8" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="8" name="(산출물) 디자인 확정안" color="#ff7000" meeting="true" start="2018-12-20" duration="0" complete="100" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="8" name="(산출물) 디자인 확정안" color="#ff7000" meeting="true" start="2020-04-17" duration="0" complete="100" expand="true" cost-manual-value="0" cost-calculated="false"/>
         </task>
-        <task id="9" name="회로개발" color="#000000" meeting="false" start="2018-12-19" duration="34" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
-            <task id="10" name="아키텍쳐 설계" color="#8cb6ce" meeting="false" start="2018-12-19" duration="5" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+        <task id="9" name="회로개발" color="#000000" meeting="false" start="2020-04-03" duration="34" complete="35" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="10" name="아키텍쳐 설계" color="#8cb6ce" meeting="false" start="2020-04-03" duration="5" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="11" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="11" name="상세설계" color="#8cb6ce" meeting="false" start="2018-12-26" duration="15" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="11" name="상세설계" color="#8cb6ce" meeting="false" start="2020-04-10" duration="15" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="12" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="12" name="(산출물) 회로도면" color="#ff7000" meeting="true" start="2019-01-16" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="12" name="(산출물) 회로도면" color="#ff7000" meeting="true" start="2020-05-01" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="13" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="13" name="부품조달" color="#8cb6ce" meeting="false" start="2019-01-16" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="13" name="부품조달" color="#8cb6ce" meeting="false" start="2020-05-01" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
         </task>
-        <task id="14" name="기구개발" color="#000000" meeting="false" start="2018-12-19" duration="33" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
-            <task id="15" name="대략설계" color="#8cb6ce" meeting="false" start="2018-12-19" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+        <task id="14" name="기구개발" color="#000000" meeting="false" start="2020-04-03" duration="33" complete="33" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="15" name="대략설계" color="#8cb6ce" meeting="false" start="2020-04-03" duration="4" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="16" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="16" name="상세설계" color="#8cb6ce" meeting="false" start="2018-12-25" duration="15" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="16" name="상세설계" color="#8cb6ce" meeting="false" start="2020-04-09" duration="15" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="17" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="17" name="(산출물) 기구도면" color="#ff7000" meeting="true" start="2019-01-15" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="17" name="(산출물) 기구도면" color="#ff7000" meeting="true" start="2020-04-30" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="18" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="18" name="부품조달" color="#8cb6ce" meeting="false" start="2019-01-15" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="18" name="부품조달" color="#8cb6ce" meeting="false" start="2020-04-30" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="25" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="19" name="소프트웨어개발" color="#000000" meeting="false" start="2018-12-19" duration="55" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
-            <task id="20" name="아키텍쳐 설계" color="#8cb6ce" meeting="false" start="2018-12-19" duration="5" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
+        <task id="19" name="소프트웨어개발" color="#000000" meeting="false" start="2020-04-03" duration="55" complete="26" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="20" name="아키텍쳐 설계" color="#8cb6ce" meeting="false" start="2020-04-03" duration="5" complete="100" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="21" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="21" name="구현" color="#8cb6ce" meeting="false" start="2018-12-26" duration="20" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="21" name="구현" color="#8cb6ce" meeting="false" start="2020-04-10" duration="20" complete="50" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="22" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="22" name="(산출물) 소스코드" color="#ff7000" meeting="true" start="2019-01-23" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="22" name="(산출물) 소스코드" color="#ff7000" meeting="true" start="2020-05-08" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="23" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="23" name="디버깅" color="#8cb6ce" meeting="false" start="2019-01-23" duration="30" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="23" name="디버깅" color="#8cb6ce" meeting="false" start="2020-05-08" duration="30" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
         </task>
-        <task id="24" name="조립 및 테스트" color="#8cb6ce" meeting="false" start="2019-02-04" duration="70" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
-            <task id="25" name="1차 조립 및 테스트" color="#8cb6ce" meeting="false" start="2019-02-04" duration="7" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+        <task id="24" name="조립 및 테스트" color="#8cb6ce" meeting="false" start="2020-05-20" duration="70" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="25" name="1차 조립 및 테스트" color="#8cb6ce" meeting="false" start="2020-05-20" duration="7" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="26" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="26" name="(산출물) 시제품" color="#ff7000" meeting="true" start="2019-02-13" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="26" name="(산출물) 시제품" color="#ff7000" meeting="true" start="2020-05-29" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="27" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="27" name="1차 수정보완" color="#8cb6ce" meeting="false" start="2019-02-13" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="27" name="1차 수정보완" color="#8cb6ce" meeting="false" start="2020-05-29" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="28" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="28" name="2차 조립 및 테스트" color="#8cb6ce" meeting="false" start="2019-03-05" duration="15" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="28" name="2차 조립 및 테스트" color="#8cb6ce" meeting="false" start="2020-06-18" duration="15" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="29" name="2차 수정보완" color="#8cb6ce" meeting="false" start="2019-03-26" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="29" name="2차 수정보완" color="#8cb6ce" meeting="false" start="2020-07-09" duration="14" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="30" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="30" name="(산출물) 결과보고서" color="#ff7000" meeting="true" start="2019-04-15" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
+            <task id="30" name="(산출물) 결과보고서" color="#ff7000" meeting="true" start="2020-07-29" duration="0" complete="0" expand="true" cost-manual-value="0" cost-calculated="false">
                 <depend id="31" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="31" name="현장 운용 테스트" color="#8cb6ce" meeting="false" start="2019-04-15" duration="20" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
+            <task id="31" name="현장 운용 테스트" color="#8cb6ce" meeting="false" start="2020-07-29" duration="20" complete="0" expand="true" cost-manual-value="0" cost-calculated="false"/>
         </task>
     </tasks>
     <resources/>

@@ -5,7 +5,6 @@ V20200501
 by Dymaxion.kim@gmail.com
 """
 
-import os
 import csv
 
 # Input file name (csv file)
