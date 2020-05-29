@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 G2M : Ganttproject csv file to Mermaid html Converter
-V20200501
+V20200529
 by Dymaxion.kim@gmail.com
 """
 
@@ -38,10 +38,14 @@ for index in range(0,y):
     elif Data[0][index]=="완료":
         STATUS=index
 
+# Combine NAME+STATUS
+for index in range(1,x):
+    Data[index][NAME] = Data[index][NAME] + ' (' + Data[index][STATUS] + '%)'
+
 # Make Content to output
 Content = []
 Content.append("<html>")
-Content.append("<script src='https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.0/mermaid.min.js'></script>")
+Content.append("<script src='https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.1/mermaid.min.js'></script>")
 #Content.append("<script src='mermaid.min.js'></script>")
 Content.append("<script>mermaid.initialize({startOnLoad:true});</script>")
 Content.append("<div class='mermaid'>")
